@@ -1,7 +1,6 @@
 % time:2025-02-21-15:43
 %
-% source code for "Transferring Common Model Parameters of Chirp-VEP to
-% SSVEP-based BCIs for Reducing Calibration Effort"
+% source code for "Transferring Common Model Parameters from Chirp-Modulated to Steady-State Visual Evoked Potentials for Calibration-Efficient BCIs"
 %
 % add data path before runing
 
@@ -14,8 +13,8 @@ warning off;
 % Subjects info 
 subjects = {'S1',   'S2',  'S3',  'S4',...
             'S5',   'S6',  'S7',  'S8',...
-            'S9',  'S10', 'S11', 'S12',...
-            'S13', 'S14', 'S15', 'S16'};
+            'S9',   'S10', 'S11', 'S12',...
+            'S13',  'S14', 'S15', 'S16'};
 nSubjects = length(subjects);
 
 % Stimulation parameters
